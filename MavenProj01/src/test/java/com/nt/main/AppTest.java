@@ -26,10 +26,18 @@ public class AppTest {
   }
   
   @Test
-  public void testWithZeros() {
+  public void testWithZeros() { 
 	  App ap=new App();
 	  int expected=0;
 	  int actual=ap.arthmeaticCal(0,0);
+	  assertEquals(expected,actual);
+  }
+  
+  @Test
+  public void testWithMixxedValues() { 
+	  App ap=new App();
+	  int expected=-10;
+	  int actual=ap.arthmeaticCal(-20,10);
 	  assertEquals(expected,actual);
   }
   
