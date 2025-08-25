@@ -37,8 +37,8 @@ public class AppTest {
   public void testWithMixxedValues() { 
 	  App ap=new App();
 
-	  int expected=-10;
-	  int actual=ap.arthmeaticCal(-20,10);
+	  int expected=-1000;
+	  int actual=ap.arthmeaticCal(-20000,1000);
 
 	 
 	  assertEquals(expected,actual);
