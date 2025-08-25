@@ -33,4 +33,12 @@ public class AppTest {
 	  assertEquals(expected,actual);
   }
   
+  @Test
+  public void testWithMixxedValues() { 
+	  App ap=new App();
+	  int expected=-1000;
+	  int actual=ap.arthmeaticCal(-2000,1000);
+	  assertEquals(expected,actual);
+  }
+  
 }
